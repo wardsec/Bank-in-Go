@@ -7,11 +7,12 @@
 * Como rodar este projeto ?
 Apenas utilize o comando: go run main.go
 
-``````` Desta forma conseguimos depositar a visualizar o saldo.
-func main() 
+Desta forma conseguimos depositar a visualizar o saldo:
+``````` 
+func main() {
     contaExemplo := contas.ContaCorrente{}
     contaExemplo.Depositar(100)
 
     fmt.Println(contaExemplo.ObterSaldo())
-
+}
 ````````
