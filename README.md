@@ -5,7 +5,9 @@
     - Remover saldo em contas.
 
 * Como rodar este projeto ?
-Apenas utilize o comando: go run main.go
+Apenas utilize o comando: go run main.go 
+(Antes de apenas rodar este comando cabe a você preencher os modelos de clientes dentro do arquivo main.go)
+
 
 Desta forma conseguimos depositar a visualizar o saldo:
 ``````` 
